@@ -1,0 +1,88 @@
+/*~~~~~ Fira Code Font Family From Google Font ~~~~~*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+/*~~~~~ Start Css Code ~~~~~*/
+*, *::after, *::before {
+  box-sizing: border-box;
+  font-family: 'Fira Code', monospace;
+}
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+main {
+  text-align: center;
+  width: 70%;
+  margin: 1em auto;
+  padding: 1em 0;
+  border: 1px solid #EEE;
+}
+main span.brand {
+  font-size: 3.5em;
+}
+main h1 {
+  margin-top: 0;
+  font-weight: 600;
+}
+main p {
+  font-size: 18px;
+}
+main p a {
+  font-weight: 700;
+  color: #55BD8A;
+}
+/* ~~~ Calculator Code ~~~  */
+.todo_grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  border: 1px solid #EEE;
+  padding: 2em;
+}
+.todo_grid > * {
+  grid-column: span 5;
+}
+
+.todo_grid h1 {
+  text-align: center;
+}
+
+.todo_grid .generate_area .password {
+  background-color: #A9C9FF;
+  padding: 20px;
+  border-radius: 2px;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  margin-bottom: .5em;
+  min-height: 50px;
+}
+
+.todo_grid .generate_area label {
+  font-weight: bolder;
+  display: block;
+  width: 45%;
+  margin: auto;
+  border: 1px solid #EDEDED;
+  padding: 8px;
+  margin-bottom: 3px;
+}
+.reload_pass {
+  font-size: 18px;
+  border: none;
+  width: 100%;
+  display: block;
+  height: 50px; 
+  background-color: #cddc39;
+  color: #FFF;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-bottom: 1.5em;
+  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.reload_pass:hover {
+  background-color: #abb734;
+}
+
