@@ -3,3 +3,6 @@ A Simple Genarate Password app Built For Fun includes: Letter - uppercase Letter
 
 ### URL for preview:
 https://generate-password-app-js.netlify.app/
+
+### description:
+A Simple Genarate Password app Built For Fun includes: Letter - uppercase Letter - Symbols - Numbers
